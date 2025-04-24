@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Crasta</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/framer-motion/dist/framer-motion.umd.js"></script>
+  <link rel="stylesheet" href="css.css">
+
+</head>
+<body>
+  <div id="video-container">
+    <video id="intro-video" autoplay muted>
+      <source src="me.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div id="main-content" class="hidden">
+    <nav class=" shadow-md fixed top-0 left-0 right-0 z-10" style="color:#ffed50">
+      <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+        <h1 class="text-xl font-bold">Gabriel.dev</h1>
+        <div class="space-x-4">
+          <a href="index.html" class="hover:text-blue-500">Home</a>
+          <a href="about.html" class="hover:text-blue-500">About</a>
+          <a href="gallery.html" class="hover:text-blue-500">Gallery</a>
+          <a href="contact.html" class="hover:text-blue-500">Contact</a>
+        </div>
+      </div>
+    </nav>
+  
+
+    <section id="home" class="pt-32 min-h-screen flex flex-col items-center justify-center text-center">
+      <h2 class="scramble-text text-blue-900 fade-in-element relative group" id="scramble" style="color:#FFF176">Hello, I'm <span id="scramble-name"></span></h2>
+      <p class="text-lg max-w-xl mt-4 fade-in-element relative group">Welcome to my personal space on the web where I showcase my passions, projects, and personality.</p>
+      <hr class="darkblue">
+      <h3 class="scramble-text fade-in-element relative group" style="color:#FFF176">📖 Whats the origin of my name?</h3>
+      <p class="text-lg max-w-xl mt-4 leading-relaxed text-blue-100">
+        <span class="block mb-2 fade-in-element relative group">
+          Gabriel is one of the archangels mentioned by name in the Bible. He serves as a divine messenger of God, often appearing to deliver important revelations and prophecies.
+        </span>
+        <span class="block mb-2 fade-in-element relative group">
+          In the <b class="text-blue-300">Old Testament</b>, Gabriel appears to the prophet Daniel, helping him understand visions about future events (<i>Daniel 8:16; 9:21</i>).
+        </span>
+        <span class="block mb-2 fade-in-element relative group">
+          In the <b class="text-blue-300">New Testament</b>, Gabriel famously appears to Zechariah, foretelling the birth of John the Baptist, and later to Mary, announcing the miraculous birth of Jesus Christ (<i>Luke 1:11–38</i>).
+        </span>
+        <span class="block mb-2 fade-in-element relative group">
+          Gabriel’s name means <b class="text-yellow-400 animate-pulse">“God is my strength”</b> in Hebrew, reflecting his role as a powerful and trustworthy servant of the Lord. He is often associated with clarity, truth, and divine communication — a heavenly ambassador bridging the divine and the earthly.
+        </span>
+      </p>
+
+    </section>
+
+    <div class="h-5 bg-yellow-300  "></div>
+
+    <section id="about" class="py-20">
+      <div class="container mx-auto px-4">
+        <h2 class="text-4xl md:text-5xl font-bold mb-10 text-center animate-pulse text-primary" style="color:#FFF176">About Me</h2>
+  
+        <div class="max-w-4xl mx-auto">
+          <div class="flex flex-col md:flex-row gap-8 items-center mb-12">
+            <div class="w-full md:w-1/3">
+              <div class="aspect-square bg-gradient-to-br from-primary via-purple-500 to-blue-500 rounded-full overflow-hidden flex items-center justify-center p-1">
+                <div class="flex flex-col items-center space-y-4 pt-4 max-w-xs w-full">
+                  <div class="text-4xl md:text-5xl font-bold text-primary hover:scale-105 transition-transform duration-300 animate-pulse">
+                    GC
+                  </div>
+                  <div class="w-48 h-48 bg-white rounded-full flex items-center justify-center overflow-hidden shadow-lg">
+                    <img src="images/i5.jpg" alt="Profile" class="object-cover w-full h-full hover:scale-105 transition-transform duration-300">
+                  </div>
+                </div>
+              </div>
+              
+            </div>    
+  
+            <div class="w-full md:w-2/3">
+              <p class="text-lg mb-4 fade-in-element relative group">
+                I am a creative and passionate individual who loves expressing ideas through design, code, and storytelling. With a deep interest in technology and arts, I continuously explore new ways to blend these disciplines to create impactful experiences.
+              </p>
+              <p class="text-lg mb-4 fade-in-element relative group ">
+                My journey into web development started with a simple curiosity about how websites work. That curiosity evolved into a passion for building elegant, functional, and user-friendly digital experiences.
+              </p>
+            </div>
+          </div>
+  
+          <div id="hobbies" class="grid grid-cols-1 md:grid-cols-3 gap-6 stagger-animation fade-in-element relative group white">
+            <!-- Info Items will be inserted here by JavaScript -->
+          </div>
+          
+        </div>
+      </div>
+    </section>
+  
+    <div class="h-5 bg-yellow-300  "></div>
+
+    <section id="projects" class="py-16">
+      <div class="max-w-5xl mx-auto px-4">
+        <h2 class="text-4xl md:text-5xl font-bold mb-10 text-center animate-pulse text-primary fade-in-element" style="color:#FFF176">Projects</h2>
+        <p class="text-xl md:text-2xl mb-6 text-blue-100 fade-in-element">Here are some of my recent projects:</p>
+        <ul class="list-disc ml-8 space-y-3 text-lg md:text-xl text-blue-200 fade-in-element">
+          <li>App idea for connecting investors to startups (featuring demo pitching, mentoring, video calls)</li>
+          <li>Personal website showcasing my work and interests</li>
+          <li>App idea for connecting the older generation with the younger generation</li>
+        </ul>
+      </div>
+      
+    </section>
+    
+    <div class="h-5 bg-yellow-300  "></div>
+
+
+    </section>
+    <section id="skills" class="py-16">
+      <div class="max-w-4xl mx-auto px-4">
+        <h2 class="text-4xl md:text-5xl font-bold mb-10 text-center animate-pulse text-primary fade-in-element" style="color:#FFF176">Experience</h2>
+        <p class="text-xl md:text-2xl mb-6 text-blue-100 fade-in-element">I have experience in various fields including:</p>
+        <ul class="list-disc ml-8 space-y-3 text-lg md:text-xl text-blue-200 fade-in-element">
+          <li>Web Development (HTML, CSS, JavaScript)</li>
+          <li>Graphic Design (Photoshop, Illustrator)</li>
+          <li>3D Renderer (Blender,AutoCad)</li>
+        </ul>
+      </div>
+      <section class="skills" id="skills">
+        <div class="skills-container max-w-5xl mx-auto px-4 py-16">
+          <h2 class="text-4xl font-bold text-center mb-10 animate-pulse fade-in-element " style="color:#FFF176">My Skill Set</h2>
+      
+          <!-- Technical Skills -->
+          <div class="skills-category mb-12">
+            <h3 class="text-2xl font-semibold mb-6 fade-in-element" style="color:#FFF176">Technical Skills</h3>
+      
+            <div id="technicalSkills" class="space-y-6 fade-in-element">
+              <!-- Skill Template: Add via JavaScript -->
+            </div>
+          </div>
+      
+          <!-- Soft Skills -->
+          <div class="soft-skills">
+            <h3 class="text-2xl font-semibold mb-6 animate-pulse fade-in-element">Soft Skills</h3>
+            <div class="flex flex-wrap gap-4 justify-center fade-in-element" id="softSkills">
+              <!-- Buttons added via JS -->
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+
+    <div class="h-5 bg-yellow-300  "></div>
+
+    
+    <section id="gallery" class="py-16">
+      <div class="max-w-5xl mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center animate-pulse fade-in-element">Gallery / Portfolio</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 ">
+          <!-- Card 1 -->
+          <div class="w-full h-64 overflow-hidden rounded-lg shadow-md fade-in-element relative group">
+            <img src="images/cert.jpg" alt="Hackathon Certificate" class="w-full h-full object-cover">
+            <p class="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white text-sm bg-black/60 px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
+              Hackathon Certificate
+            </p>
+          </div>
+        
+          <!-- Card 2 -->
+          <div class="w-full h-64 overflow-hidden rounded-lg shadow-md fade-in-element relative group">
+            <img src="images/s1.jpg" alt="Sketch" class="w-full h-full object-cover">
+            <p class="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white text-sm bg-black/60 px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
+              A Sketch
+            </p>
+          </div>
+        
+          <!-- Card 3 -->
+          <div class="w-full h-64 overflow-hidden rounded-lg shadow-md fade-in-element relative group">
+            <img src="images/p8.5.jpg" alt="Photo" class="w-full h-full object-cover">
+            <p class="absolute bottom-2 left-1/2 transform -translate-x-1/2 text-white text-sm bg-black/60 px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition duration-300">
+              A Photo
+            </p>
+          </div>
+        </div>
+        
+        
+        <div class="mt-8 text-center">
+          <a href="gallery.html"><button class="bg-teal-500 text-black font-semibold py-3 px-8 rounded-lg shadow-md transform transition-all hover:bg-transparent hover:text-teal-500 hover:scale-105 border-2 border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500">
+            View More ->
+          </button>
+        </a>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <footer class="bg-white/95 text-yellow-300 text-center py-6" style="background: rgba(25, 27, 40, 0.9); backdrop-filter: blur(16px); border-top: 1px solid rgba(20, 21, 52, 0.1);">
+      <p class="mb-4">&copy; 2025 Gabriel Crasta. All rights reserved.</p>
+      <a href="contact.html">
+        <button class="bg-teal-500 text-black font-semibold py-3 px-8 rounded-lg shadow-md transform transition-all hover:bg-transparent hover:text-teal-500 hover:scale-105 border-2 border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-500">
+          Contact Me
+        </button>
+      </a>
+    </footer>
+    
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
